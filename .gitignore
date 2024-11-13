@@ -1,4 +1,3 @@
-/node_modules
 /.phpunit.cache
 /public/hot
 /public/storage
