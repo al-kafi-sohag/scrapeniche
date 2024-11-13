@@ -1,3 +1,4 @@
+/node_modules
 /.phpunit.cache
 /public
 /public/hot
