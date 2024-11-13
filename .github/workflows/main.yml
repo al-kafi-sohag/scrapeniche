@@ -17,10 +17,14 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd domains
-            cd scrapeniche.com
-            cd public_html
+            cd domains/scrapeniche.com/public_html
             git fetch --all
             git reset --hard origin/main
             git pull
-            php artisan optimize:clear
+
+            if [ -n "$(git diff HEAD@{1})" ]; then
+              php artisan optimize:clear
+              if [ -n "$(git diff HEAD@{1} --name-only | grep 'composer.json')" ]; then
+                composer2 install --no-dev --optimize-autoloader --no-interaction
+              fi
+            fi
