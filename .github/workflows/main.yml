@@ -1,0 +1,26 @@
+name: Deploy Application to Server
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  laravel-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          port: ${{ secrets.PORT }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            cd domains
+            cd scrapeniche.com
+            cd public_html
+            git fetch --all
+            git reset --hard origin/main
+            git pull
+            /usr/local/php82/bin/php-cli artisan optimize:clear
