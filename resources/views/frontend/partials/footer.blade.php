@@ -1,45 +1,44 @@
 <footer id="footer" class="m-0 border-top-0 lazyload"
-    data-bg-src="img/demos/business-consulting-3/backgrounds/background-4.jpg"
+    data-bg-src="{{ asset('frontend/img/demos/business-consulting-3/backgrounds/background-4.jpg') }}"
     style="background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="container pt-3">
         <div class="py-5 mb-3 row justify-content-between align-items-center">
             <div class="col-auto mb-4 mb-lg-0">
-                <h2 class="mb-0 font-weight-semibold text-color-light text-10 ls-0">Porto Business Consulting Group</h2>
+                <h2 class="mb-0 font-weight-semibold text-color-light text-10 ls-0">Scrape Niche</h2>
             </div>
             <div class="col-auto">
-                <a href="demo-business-consulting-3-contact.html"
+                <a href="#"
                     class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4"
                     data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
-                    <span class="text-color-light">Contact Us</span>
+                    <span class="text-color-light">Start Your Project</span>
                 </a>
             </div>
         </div>
         <hr class="my-0 bg-color-light opacity-1">
         <div class="pt-3 mt-5 row">
             <div class="mb-4 col-lg-3 mb-lg-0">
-                <a href="demo-business-consulting-3.html" class="text-decoration-none">
-                    <img src="img/demos/business-consulting-3/logo-footer.png" class="mb-4 img-fluid" width="123"
-                        height="33" alt="" />
+                <a href="#" class="text-decoration-none">
+                    <h3 class="mb-2 text-color-light font-weight-bold text-5">Your Data, Your Way, Automated</h3>
                 </a>
-                <p class="text-3-5">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel
-                    efficitur fel.</p>
+                <p class="text-3-5">Custom web scraping solutions tailored to your business needs. Transform your data collection process with our expert services.</p>
                 <ul
                     class="social-icons social-icons-clean social-icons-clean-with-border social-icons-medium social-icons-icon-light">
-                    <li class="social-icons-facebook">
-                        <a href="http://www.facebook.com/" target="_blank" title="Facebook"
-                            data-cursor-effect-hover="fit">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li class="mx-2 social-icons-x">
-                        <a href="http://www.x.com/" target="_blank" title="X" data-cursor-effect-hover="fit">
-                            <i class="fab fa-x-twitter"></i>
-                        </a>
-                    </li>
                     <li class="social-icons-linkedin">
-                        <a href="http://www.linkedin.com/" target="_blank" title="Linkedin"
-                            data-cursor-effect-hover="fit">
-                            <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/al-kafi-sohag/" target="_blank"
+                            class="text-4" title="LinkedIn" data-cursor-effect-hover="fit">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="mx-2 social-icons-github">
+                        <a href="https://github.com/al-kafi-sohag" target="_blank"
+                            class="text-4" title="GitHub" data-cursor-effect-hover="fit">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-icons-whatsapp">
+                        <a href="https://wa.me/8801773301138" target="_blank"
+                            class="text-4" title="WhatsApp" data-cursor-effect-hover="fit">
+                            <i class="fa-brands fa-whatsapp"></i>
                         </a>
                     </li>
                 </ul>
@@ -47,22 +46,21 @@
             <div class="mb-4 col-lg-3 mb-lg-0">
                 <ul class="list list-icons list-icons-lg">
                     <li class="px-0 mb-1 d-flex">
-                        <img width="25" src="img/demos/business-consulting-3/icons/phone.svg" alt="Phone Icon"
+                        <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/phone.svg') }}" alt="Phone Icon"
                             data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
-                        <a href="tel:8001234567" class="text-color-light font-weight-semibold text-3-4 ms-2">(800)
-                            123-4567</a>
+                        <a href="tel:+8801773301138" class="text-color-light font-weight-semibold text-3-4 ms-2">(880) 01773301138</a>
                     </li>
                     <li class="px-0 my-3 d-flex">
-                        <img width="25" src="img/demos/business-consulting-3/icons/email.svg" alt="Email Icon"
+                        <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/email.svg') }}" alt="Email Icon"
                             data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
-                        <a href="mailto:info@example.com"
-                            class="text-color-light font-weight-semibold text-3-4 ms-2">info@example.com</a>
+                        <a href="mailto:info@scrapeniche.com"
+                            class="text-color-light font-weight-semibold text-3-4 ms-2">info@scrapeniche.com</a>
                     </li>
                     <li class="px-0 mb-1 d-flex font-weight-semibold text-color-light">
-                        <img width="25" src="img/demos/business-consulting-3/icons/map-pin.svg" alt="Location"
+                        <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/map-pin.svg') }}" alt="Location"
                             data-icon
                             data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light me-2'}" />
-                        1234 Street Name, New York, NY 10000, USA
+                        Dhaka, Bangladesh
                     </li>
                 </ul>
             </div>
@@ -71,24 +69,23 @@
                 <div id="googlemaps" class="m-0 google-map" style="height: 190px;"></div>
             </div>
             <div class="col-lg-2">
-                <h4 class="font-weight-bold text-5">Useful Links</h4>
+                <h4 class="font-weight-bold text-5">Quick Links</h4>
                 <ul class="list list-icons list-icons-sm">
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="demo-business-consulting-3-contact.html" class="link-hover-style-1 ms-1">Contact Us</a>
+                        <a href="#" class="link-hover-style-1 ms-1">Contact Us</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="demo-business-consulting-3-services.html" class="link-hover-style-1 ms-1">Our
-                            Services</a>
+                        <a href="#" class="link-hover-style-1 ms-1">Our Services</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1">Payment Methods</a>
+                        <a href="#" class="link-hover-style-1 ms-1">Pricing Plans</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1">Services Guide</a>
+                        <a href="#" class="link-hover-style-1 ms-1">Documentation</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
@@ -102,7 +99,7 @@
         <div class="pb-5 row">
             <div class="m-0 text-center col-lg-12">
                 <hr class="mt-5 mb-4 bg-color-light opacity-1">
-                <p class="text-3-4">Porto Business Consulting. © 2024. All Rights Reserved</p>
+                <p class="text-3-4">Scrape Niche {{ date('Y') }}. All Rights Reserved</p>
             </div>
         </div>
     </div>

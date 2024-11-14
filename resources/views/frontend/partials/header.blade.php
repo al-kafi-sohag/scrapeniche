@@ -72,8 +72,7 @@
                         <div class="header-logo">
                             <a href="javascript:void(0)">
                                 <img alt="Porto" width="162" height="33"
-                                    src="{{ asset('frontend/img/demos/business-consulting-3/logo.png') }}"
-                                    data-img-suffix-primary>
+                                    src="{{ asset('frontend/img/logos/logo.png') }}" data-img-suffix-primary>
                             </a>
                         </div>
                     </div>

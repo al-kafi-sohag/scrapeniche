@@ -8,9 +8,9 @@
         <div class="row">
             <div class="col-md-7 col-lg-12">
                 <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="0">
-                    <h1 class="clearfix pb-2 mb-3 custom-text-background custom-big-font-size-1 text-14 font-weight-bold float-xl-end line-height-1 custom-ws-mobile-wrap ws-nowrap mb-xl-5"
+                    <h1 class="pb-2 mb-3 clearfix custom-text-background custom-big-font-size-1 text-14 font-weight-bold float-xl-end line-height-1 custom-ws-mobile-wrap ws-nowrap mb-xl-5"
                         style="background-image: url({{ asset('frontend/img/demos/business-consulting-3/backgrounds/text-background.jpg') }});">
-                        STRATEGY EXECUTION</h1>
+                        NICHE SCRAPING SOLUTIONS</h1>
                 </div>
             </div>
         </div>
@@ -18,20 +18,18 @@
             <div class="pb-5 mb-5 col-md-7 col-xl-5 pb-xl-0">
                 <strong
                     class="pb-1 mb-3 d-block font-weight-semibold text-color-dark text-5-5 line-height-4 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Accelerate Strategy
-                    Execution and Consistency in <span class="custom-highlight-text-1 font-weight-bold">Revenue
-                        Growth!</span></strong>
+                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Custom-Built
+                    <span class="custom-highlight-text-1 font-weight-bold">Scraping Solutions</span> for Your Unique Needs</strong>
                 <p class="mb-4 text-3-5 appear-animation" data-appear-animation="fadeInUpShorter"
-                    data-appear-animation-delay="750">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit
-                    vehicula leo, vel efficitur felis ultrices non.</p>
-                <a href="javascript:void(0)"
+                    data-appear-animation-delay="750">From e-commerce and real estate to finance and academic research, we create personalized scraping solutions that adapt to your specific requirements. Our tailor-made scripts ensure effortless data extraction, helping you collect and manage web data exactly the way your business needs it.</p>
+                <a href="#services"
                     class="d-inline-flex align-items-center text-decoration-none appear-animation"
                     data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
                     <img width="30" height="30"
                         src="{{ asset('frontend/img/demos/business-consulting-3/icons/mouse.svg') }}" alt=""
                         data-icon
                         data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary me-2'}" />
-                    Scroll Down
+                    Explore Solutions
                 </a>
             </div>
         </div>

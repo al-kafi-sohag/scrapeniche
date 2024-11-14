@@ -306,6 +306,8 @@ li {
 	top: 0;
 	image-rendering: -webkit-optimize-contrast;
 	transform: translateZ(0);
+    height: auto;
+    object-fit: cover;
 }
 
 #header .header-nav {
@@ -6051,8 +6053,8 @@ section.page-header.custom-product {
 	padding-right: 10px;
 }
 
-/* 
- * Order (Extending to 10) 
+/*
+ * Order (Extending to 10)
  * Bootstrap 5 has until 5 order class
 */
 .order-6 {

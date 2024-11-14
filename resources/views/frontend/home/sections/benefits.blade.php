@@ -21,43 +21,26 @@
             </div>
             <div class="col-lg-6">
                 <h2 class="mb-2 custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">WHY
-                    US</h2>
+                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">WHY CHOOSE US</h2>
                 <h3 class="pb-1 mb-3 text-9 line-height-3 text-transform-none font-weight-medium text-color-light ls-0 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Learn Here
-                    The Main Reasons Why You
-                    Should Choose Us</h3>
+                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Discover Why Our Custom Web Scraping Solutions Stand Out</h3>
                 <p class="pb-2 mb-4 text-3-5 appear-animation" data-appear-animation="fadeInUpShorter"
-                    data-appear-animation-delay="750">Cras a
-                    elit sit amet leo accumsan
-                    volutpat. Suspendisse hendreriast ehicula
-                    leo, vel efficitur felis
-                    ultrices non. </p>
+                    data-appear-animation-delay="750">We provide tailor-made web scraping solutions that adapt to your unique data needs, ensuring efficient and reliable data extraction for your business growth.</p>
                 <ul class="mb-0 list ps-0 pe-lg-5">
                     <li class="pb-1 mb-3 d-flex align-items-start appear-animation"
                         data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
                         <i class="p-3 fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle"></i>
-                        <span class="text-3-5 ps-3">We wil
-                            identify where you're getting
-                            off-track in all areas and not
-                            just</span>
+                        <span class="text-3-5 ps-3">Custom-built scraping scripts tailored specifically to your data requirements and business goals</span>
                     </li>
                     <li class="pb-1 mb-3 d-flex align-items-start appear-animation"
                         data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
                         <i class="p-3 fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle"></i>
-                        <span class="text-3-5 ps-3">We create a
-                            program that accelerates your
-                            strategic execution and growth
-                            goals.
-                        </span>
+                        <span class="text-3-5 ps-3">Full control with downloadable scripts and a user-friendly dashboard for managing your data collection</span>
                     </li>
                     <li class="d-flex align-items-start appear-animation" data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="1500">
                         <i class="p-3 fas fa-check text-color-light text-4 custom-bg-color-grey-1 rounded-circle"></i>
-                        <span class="text-3-5 ps-3">Consistently
-                            hit strategic objectives and
-                            revenue targets, and grow, year over
-                            year.</span>
+                        <span class="text-3-5 ps-3">Comprehensive support with regular updates and optimization to ensure consistent performance</span>
                     </li>
                 </ul>
             </div>

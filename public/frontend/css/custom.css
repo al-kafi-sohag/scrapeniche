@@ -1,0 +1,30 @@
+/* Add floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Stagger animation delay for each card */
+.row > div:nth-child(1) .service-icon { animation-delay: 0s; }
+.row > div:nth-child(2) .service-icon { animation-delay: 0.5s; }
+.row > div:nth-child(3) .service-icon { animation-delay: 1s; }
+.row > div:nth-child(4) .service-icon { animation-delay: 1.5s; }
+.row > div:nth-child(5) .service-icon { animation-delay: 2s; }
+.row > div:nth-child(6) .service-icon { animation-delay: 2.5s; }
+
+.service-arrow {
+    align-content: space-evenly;
+}
+
+.about-services-wrapper .card-body {
+    min-height: 21rem;
+}
