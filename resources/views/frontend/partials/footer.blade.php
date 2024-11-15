@@ -53,8 +53,8 @@
                     <li class="px-0 my-3 d-flex">
                         <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/email.svg') }}" alt="Email Icon"
                             data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
-                        <a href="mailto:info@scrapeniche.com"
-                            class="text-color-light font-weight-semibold text-3-4 ms-2">info@scrapeniche.com</a>
+                        <a href="mailto:ceo@scrapeniche.com"
+                            class="text-color-light font-weight-semibold text-3-4 ms-2">ceo@scrapeniche.com</a>
                     </li>
                     <li class="px-0 mb-1 d-flex font-weight-semibold text-color-light">
                         <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/map-pin.svg') }}" alt="Location"

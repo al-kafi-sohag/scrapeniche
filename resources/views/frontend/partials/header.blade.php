@@ -17,7 +17,7 @@
                                                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
                                             </span>
                                             <a class="text-color-light text-decoration-none font-weight-semibold text-3-5 ms-2"
-                                                href="telto:+8801773301138" data-cursor-effect-hover="plus"
+                                                href="tel:+8801773301138" data-cursor-effect-hover="plus"
                                                 data-cursor-effect-hover-color="light">(880) 01773301138</a>
                                         </span>
                                         <span class="px-0 font-weight-normal align-items-center d-none d-xl-flex ms-3">
@@ -131,7 +131,7 @@
                             <a href="javascript:void(0)" class="header-nav-features-toggle text-decoration-none"
                                 data-focus="headerSearch" aria-label="Search">
                                 <i
-                                    class="fas fa-search header-nav-top-icon text-3-5 text-color-dark text-color-hover-primary font-weight-semibold top-3"></i>
+                                    class="top-3 fas fa-search header-nav-top-icon text-3-5 text-color-dark text-color-hover-primary font-weight-semibold"></i>
                             </a>
                             <div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed border-radius-0"
                                 id="headerTopSearchDropdown">
@@ -141,7 +141,7 @@
                                             type="search" value="" placeholder="Search...">
                                         <button class="btn" type="submit" aria-label="Search">
                                             <i
-                                                class="fas fa-search header-nav-top-icon text-color-dark text-color-hover-primary top-2"></i>
+                                                class="top-2 fas fa-search header-nav-top-icon text-color-dark text-color-hover-primary"></i>
                                         </button>
                                     </div>
                                 </form>
