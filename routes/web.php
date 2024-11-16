@@ -2,14 +2,15 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers\HomeController as HC;
-use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\FrontendController;
 
 // Frontend Routes
 Route::name('f.')->group(function () {
-    Route::get('/', [HomeController::class, 'home'])->name('home');
+    Route::get('/', [FrontendController::class, 'home'])->name('home');
+    Route::get('/about', [FrontendController::class, 'about'])->name('about');
+
 });
 
 Auth::routes();
 
-Route::get('/home', [HC::class, 'index'])->name('home');
+// Route::get('/home', [HC::class, 'index'])->name('home');

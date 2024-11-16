@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 class FrontendController extends BaseController
 {
-    public function index()
+    public function home()
     {
-        // Setup SEO for the landing page
         $this->setupSEO(
             'Professional Web Scraping Services | ScrapeNiche',
             'Custom web scraping solutions for businesses. Get tailor-made data extraction scripts, user-friendly dashboard, and comprehensive data management tools for e-commerce, market research, and more.',
@@ -19,4 +18,15 @@ class FrontendController extends BaseController
         return view('frontend.home.index');
     }
 
+    public function about()
+    {
+        $this->setupSEO(
+            'About Us | ScrapeNiche',
+            'Learn more about ScrapeNiche and our mission to provide professional web scraping solutions. Discover our expertise in custom data extraction and commitment to client success.',
+            ['about scrapeniche', 'web scraping company', 'data extraction experts', 'custom scraping solutions'],
+            asset('frontend/img/logo.png')
+        );
+
+        return view('frontend.about.index');
+    }
 }

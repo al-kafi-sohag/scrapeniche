@@ -85,33 +85,36 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
-                                            <a class="nav-link active" href="javascript:void(0)">Home</a>
+                                            <a class="nav-link {{ request()->routeIs('f.home') ? 'active' : '' }}" href="{{ route('f.home') }}">Home</a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="javascript:void(0)">About Us</a>
+                                            <a class="nav-link {{ request()->routeIs('f.about') ? 'active' : '' }}" href="{{ route('f.about') }}">About Us</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="nav-link dropdown-toggle" href="javascript:void(0)">Services</a>
+                                            <a class="nav-link dropdown-toggle {{ request()->routeIs('f.services*') ? 'active' : '' }}" href="javascript:void(0)">Services</a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Sales &
-                                                        Marketing</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Strategic
-                                                        Planning</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Operations</a>
-                                                </li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Cost
-                                                        Transformation</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Digital
-                                                        Marketing</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Automation</a>
-                                                </li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">E-commerce Scraping</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Market Research Data</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Real Estate Data</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">News & Media Monitoring</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Financial Data</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Travel & Hospitality Data</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Academic Research Data</a></li>
                                             </ul>
                                         </li>
-                                        <li><a class="nav-link" href="javascript:void(0)">Cases</a></li>
-                                        <li><a class="nav-link" href="javascript:void(0)">Team</a></li>
-                                        <li><a class="nav-link" href="javascript:void(0)">Blog</a></li>
+                                        <li class="dropdown">
+                                            <a class="nav-link dropdown-toggle {{ request()->routeIs('f.features*') ? 'active' : '' }}" href="javascript:void(0)">Features</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Custom Scripts</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">User Dashboard</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Data Management</a></li>
+                                                <li><a href="javascript:void(0)" class="dropdown-item">Task Automation</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link {{ request()->routeIs('f.case-studies') ? 'active' : '' }}" href="javascript:void(0)">Case Studies</a></li>
+                                        <li><a class="nav-link {{ request()->routeIs('f.blog') ? 'active' : '' }}" href="javascript:void(0)">Blog</a></li>
                                         <li class="d-lg-none">
-                                            <a class="nav-link" href="javascript:void(0)">Contact Us</a>
+                                            <a class="nav-link {{ request()->routeIs('f.contact') ? 'active' : '' }}" href="javascript:void(0)">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>

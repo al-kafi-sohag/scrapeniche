@@ -66,7 +66,7 @@
             </div>
             <div class="mb-4 col-lg-4 mb-lg-0">
                 <!-- Google Maps -->
-                <div id="googlemaps" class="m-0 google-map" style="height: 190px;"></div>
+                <iframe id="googlemaps" class="m-0 google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89138.52513240265!2d90.38210718647353!3d23.78089733142186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1731777262701!5m2!1sen!2sbd" height="190" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-lg-2">
                 <h4 class="font-weight-bold text-5">Quick Links</h4>
