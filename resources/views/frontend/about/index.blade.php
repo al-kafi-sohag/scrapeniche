@@ -65,7 +65,7 @@
                                     <span>
                                         <img width="25" height="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/phone.svg') }}" alt="Phone Icon" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark'}" />
                                     </span>
-                                    <a class="text-color-dark text-color-hover-primary text-decoration-none font-weight-semibold text-3 ms-2" href="tel:1234567890">(800) 123-4567</a>
+                                    <a class="text-color-dark text-color-hover-primary text-decoration-none font-weight-semibold text-3 ms-2" href="tel:8801773301138">(800)1773301138</a>
                                 </span>
                             </div>
                         </div>
