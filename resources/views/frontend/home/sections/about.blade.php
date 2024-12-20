@@ -11,11 +11,13 @@
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-shopping-cart fa-3x text-color-primary"></i>
                                     <h2 class="mb-1 text-5 font-weight-semibold">E-commerce Solutions</h2>
-                                    <p class="pb-1 mb-2">Extract product listings, pricing data, and customer reviews to stay competitive and make data-driven decisions.</p>
-                                    <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                                    <p class="pb-1 mb-2">Extract product listings, pricing data, and customer reviews to
+                                        stay competitive and make data-driven decisions.</p>
+                                    {{-- <span
+                                        class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                                         Learn More
                                         <i class="fas fa-arrow-right ms-2 service-arrow"></i>
-                                    </span>
+                                    </span> --}}
                                 </div>
                             </div>
                         </a>
@@ -26,11 +28,13 @@
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-chart-line fa-3x text-color-primary"></i>
                                     <h2 class="mb-1 text-5 font-weight-semibold">Market Research</h2>
-                                    <p class="pb-1 mb-2">Gather industry trends, competitor analysis, and consumer sentiment data for strategic insights.</p>
-                                    <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                                    <p class="pb-1 mb-2">Gather industry trends, competitor analysis, and consumer
+                                        sentiment data for strategic insights.</p>
+                                    {{-- <span
+                                        class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                                         Learn More
                                         <i class="fas fa-arrow-right ms-2 service-arrow"></i>
-                                    </span>
+                                    </span> --}}
                                 </div>
                             </div>
                         </a>
@@ -41,11 +45,13 @@
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-home fa-3x text-color-primary"></i>
                                     <h2 class="mb-1 text-5 font-weight-semibold">Real Estate Data</h2>
-                                    <p class="pb-1 mb-2">Collect property listings, pricing data, and market trends for comprehensive real estate analysis.</p>
-                                    <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                                    <p class="pb-1 mb-2">Collect property listings, pricing data, and market trends for
+                                        comprehensive real estate analysis.</p>
+                                    {{-- <span
+                                        class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                                         Learn More
                                         <i class="fas fa-arrow-right ms-2 service-arrow"></i>
-                                    </span>
+                                    </span> --}}
                                 </div>
                             </div>
                         </a>
@@ -56,11 +62,13 @@
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-newspaper fa-3x text-color-primary"></i>
                                     <h2 class="mb-1 text-5 font-weight-semibold">News & Media</h2>
-                                    <p class="pb-1 mb-2">Monitor news articles and online publications to stay updated with industry-specific topics.</p>
-                                    <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                                    <p class="pb-1 mb-2">Monitor news articles and online publications to stay updated
+                                        with industry-specific topics.</p>
+                                    {{-- <span
+                                        class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                                         Learn More
                                         <i class="fas fa-arrow-right ms-2 service-arrow"></i>
-                                    </span>
+                                    </span> --}}
                                 </div>
                             </div>
                         </a>
@@ -71,11 +79,13 @@
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-chart-bar fa-3x text-color-primary"></i>
                                     <h2 class="mb-1 text-5 font-weight-semibold">Financial Data</h2>
-                                    <p class="pb-1 mb-2">Retrieve financial reports, stock data, and economic indicators for informed financial decisions.</p>
-                                    <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                                    <p class="pb-1 mb-2">Retrieve financial reports, stock data, and economic indicators
+                                        for informed financial decisions.</p>
+                                    {{-- <span
+                                        class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                                         Learn More
                                         <i class="fas fa-arrow-right ms-2 service-arrow"></i>
-                                    </span>
+                                    </span> --}}
                                 </div>
                             </div>
                         </a>
@@ -86,11 +96,13 @@
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-plane fa-3x text-color-primary"></i>
                                     <h2 class="mb-1 text-5 font-weight-semibold">Travel & Hospitality</h2>
-                                    <p class="pb-1 mb-2">Scrape travel deals, hotel prices, and user reviews for competitive travel insights.</p>
-                                    <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                                    <p class="pb-1 mb-2">Scrape travel deals, hotel prices, and user reviews for
+                                        competitive travel insights.</p>
+                                    {{-- <span
+                                        class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                                         Learn More
                                         <i class="fas fa-arrow-right ms-2 service-arrow"></i>
-                                    </span>
+                                    </span> --}}
                                 </div>
                             </div>
                         </a>
@@ -101,11 +113,13 @@
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-graduation-cap fa-3x text-color-primary"></i>
                                     <h2 class="mb-1 text-5 font-weight-semibold">Academic Research</h2>
-                                    <p class="pb-1 mb-2">Collect data for studies, surveys, and academic projects with precision and reliability.</p>
-                                    <span class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
+                                    <p class="pb-1 mb-2">Collect data for studies, surveys, and academic projects with
+                                        precision and reliability.</p>
+                                    {{-- <span
+                                        class="custom-view-more d-inline-flex font-weight-medium text-color-primary">
                                         Learn More
                                         <i class="fas fa-arrow-right ms-2 service-arrow"></i>
-                                    </span>
+                                    </span> --}}
                                 </div>
                             </div>
                         </a>
@@ -134,9 +148,13 @@
             <h2 class="mb-2 custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary appear-animation"
                 data-appear-animation="fadeInUpShorter">ABOUT US</h2>
             <h3 class="mb-4 text-9 text-lg-5 text-xl-9 line-height-3 text-transform-none font-weight-semibold mb-lg-3 mb-xl-4 appear-animation"
-                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Your Partner in Custom Web Scraping Solutions</h3>
+                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Your Partner in Custom Web
+                Scraping Solutions</h3>
             <p class="pb-1 mb-4 text-3-5 mb-lg-2 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter"
-                data-appear-animation-delay="500">At Scrape Niche, we specialize in creating tailor-made web scraping solutions that adapt to your unique business needs. Our expertise spans across multiple industries, from e-commerce and real estate to financial markets and academic research, ensuring you get precisely the data you need to drive your success.</p>
+                data-appear-animation-delay="500">At Scrape Niche, we specialize in creating tailor-made web scraping
+                solutions that adapt to your unique business needs. Our expertise spans across multiple industries, from
+                e-commerce and real estate to financial markets and academic research, ensuring you get precisely the
+                data you need to drive your success.</p>
             <div class="pb-2 mb-4 row align-items-center mb-lg-1 mb-xl-4 appear-animation"
                 data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
                 <div class="col-6">

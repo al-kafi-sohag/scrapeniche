@@ -11,7 +11,7 @@ Route::name('f.')->group(function () {
     Route::get('/services', [FrontendController::class, 'services'])->name('services');
     Route::get('/features', [FrontendController::class, 'features'])->name('features');
     Route::get('/pricings', [FrontendController::class, 'pricings'])->name('pricings');
-
+    Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 });
 
 Auth::routes();

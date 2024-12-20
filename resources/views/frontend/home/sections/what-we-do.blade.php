@@ -12,16 +12,18 @@
                 <h2 class="mb-2 custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary appear-animation"
                     data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">OUR SERVICES</h2>
                 <h3 class="pb-1 mb-3 text-9 line-height-3 text-transform-none font-weight-semibold appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Custom Web Scraping Solutions</h3>
+                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Custom Web Scraping
+                    Solutions</h3>
                 <p class="pb-3 mb-4 text-3-5 appear-animation" data-appear-animation="fadeInUpShorter"
-                    data-appear-animation-delay="750">We create personalized web scraping solutions tailored to your specific needs. Whether you're in e-commerce, market research, real estate, or any other industry, our custom scripts help you collect and manage web data effortlessly.</p>
+                    data-appear-animation-delay="750">We create personalized web scraping solutions tailored to your
+                    specific needs. Whether you're in e-commerce, market research, real estate, or any other industry,
+                    our custom scripts help you collect and manage web data effortlessly.</p>
             </div>
         </div>
         <div class="mb-5 row row-gutter-sm justify-content-center appear-animation"
             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
             <div class="mb-4 col-sm-9 col-md-6 col-lg-4">
-                <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none"
-                    data-cursor-effect-hover="plus">
+                <div class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                     <div class="card box-shadow-4">
                         <div class="card-img-top position-relative overlay overlay-show">
                             <div class="bottom-0 left-0 px-4 py-3 position-absolute w-100 z-index-3">
@@ -38,19 +40,19 @@
                                 class="img-fluid" alt="E-commerce Scraping" />
                         </div>
                         <div class="px-4 card-body d-flex align-items-center custom-view-more">
-                            <p class="mb-0 card-text w-100">Extract product listings, pricing data, and customer reviews to stay competitive in the e-commerce landscape.</p>
-                            <img width="50" height="50" class="w-auto"
+                            <p class="mb-0 card-text w-100">Extract product listings, pricing data, and customer reviews
+                                to stay competitive in the e-commerce landscape.</p>
+                            {{-- <img width="50" height="50" class="w-auto"
                                 src="{{ asset('frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt
                                 data-icon
                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                style="width: 50px;" />
+                                style="width: 50px;" /> --}}
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="mb-4 col-sm-9 col-md-6 col-lg-4">
-                <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none"
-                    data-cursor-effect-hover="plus">
+                <div class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                     <div class="card box-shadow-4">
                         <div class="card-img-top position-relative overlay overlay-show">
                             <div class="bottom-0 left-0 px-4 py-3 position-absolute w-100 z-index-3">
@@ -67,19 +69,19 @@
                                 class="img-fluid" alt="Market Research" />
                         </div>
                         <div class="px-4 card-body d-flex align-items-center custom-view-more">
-                            <p class="mb-0 card-text w-100">Gather comprehensive market insights, competitor analysis, and consumer sentiment data.</p>
-                            <img width="50" height="50" class="w-auto"
+                            <p class="mb-0 card-text w-100">Gather comprehensive market insights, competitor analysis,
+                                and consumer sentiment data.</p>
+                            {{-- <img width="50" height="50" class="w-auto"
                                 src="{{ asset('frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt
                                 data-icon
                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                style="width: 50px;" />
+                                style="width: 50px;" /> --}}
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="mb-4 col-sm-9 col-md-6 col-lg-4">
-                <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none"
-                    data-cursor-effect-hover="plus">
+                <div class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                     <div class="card box-shadow-4">
                         <div class="card-img-top position-relative overlay overlay-show">
                             <div class="bottom-0 left-0 px-4 py-3 position-absolute w-100 z-index-3">
@@ -96,23 +98,24 @@
                                 class="img-fluid" alt="Real Estate Data" />
                         </div>
                         <div class="px-4 card-body d-flex align-items-center custom-view-more">
-                            <p class="mb-0 card-text w-100">Collect property listings, pricing trends, and market analytics for informed decision-making.</p>
-                            <img width="50" height="50" class="w-auto"
+                            <p class="mb-0 card-text w-100">Collect property listings, pricing trends, and market
+                                analytics for informed decision-making.</p>
+                            {{-- <img width="50" height="50" class="w-auto"
                                 src="{{ asset('frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt
                                 data-icon
                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                style="width: 50px;" />
+                                style="width: 50px;" /> --}}
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="mb-4 col-sm-9 col-md-6 col-lg-4 mb-lg-0">
-                <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none"
-                    data-cursor-effect-hover="plus">
+                <div class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                     <div class="card box-shadow-4">
                         <div class="card-img-top position-relative overlay overlay-show">
                             <div class="bottom-0 left-0 px-4 py-3 position-absolute w-100 z-index-3">
-                                <h4 class="mb-1 font-weight-semibold text-color-light text-6">News & Media Monitoring</h4>
+                                <h4 class="mb-1 font-weight-semibold text-color-light text-6">News & Media Monitoring
+                                </h4>
                                 <div class="custom-crooked-line">
                                     <img width="154" height="26"
                                         src="{{ asset('frontend/img/demos/business-consulting-3/icons/infinite-crooked-line.svg') }}"
@@ -125,19 +128,19 @@
                                 class="img-fluid" alt="News & Media Monitoring" />
                         </div>
                         <div class="px-4 card-body d-flex align-items-center custom-view-more">
-                            <p class="mb-0 card-text w-100">Track news articles, publications, and media coverage across multiple sources.</p>
-                            <img width="50" height="50" class="w-auto"
+                            <p class="mb-0 card-text w-100">Track news articles, publications, and media coverage across
+                                multiple sources.</p>
+                            {{-- <img width="50" height="50" class="w-auto"
                                 src="{{ asset('frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt
                                 data-icon
                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                style="width: 50px;" />
+                                style="width: 50px;" /> --}}
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="mb-4 col-sm-9 col-md-6 col-lg-4 mb-lg-0">
-                <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none"
-                    data-cursor-effect-hover="plus">
+                <div class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                     <div class="card box-shadow-4">
                         <div class="card-img-top position-relative overlay overlay-show">
                             <div class="bottom-0 left-0 px-4 py-3 position-absolute w-100 z-index-3">
@@ -154,19 +157,19 @@
                                 class="img-fluid" alt="Financial Data" />
                         </div>
                         <div class="px-4 card-body d-flex align-items-center custom-view-more">
-                            <p class="mb-0 card-text w-100">Extract financial reports, stock data, and economic indicators for market analysis.</p>
-                            <img width="50" height="50" class="w-auto"
+                            <p class="mb-0 card-text w-100">Extract financial reports, stock data, and economic
+                                indicators for market analysis.</p>
+                            {{-- <img width="50" height="50" class="w-auto"
                                 src="{{ asset('frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt
                                 data-icon
                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                style="width: 50px;" />
+                                style="width: 50px;" /> --}}
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-sm-9 col-md-6 col-lg-4">
-                <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none"
-                    data-cursor-effect-hover="plus">
+                <div class="custom-link-hover-effects text-decoration-none" data-cursor-effect-hover="plus">
                     <div class="card box-shadow-4">
                         <div class="card-img-top position-relative overlay overlay-show">
                             <div class="bottom-0 left-0 px-4 py-3 position-absolute w-100 z-index-3">
@@ -183,15 +186,16 @@
                                 class="img-fluid" alt="Research & Analytics" />
                         </div>
                         <div class="px-4 card-body d-flex align-items-center custom-view-more">
-                            <p class="mb-0 card-text w-100">Support academic research and data analysis with custom data collection solutions.</p>
-                            <img width="50" height="50" class="w-auto"
+                            <p class="mb-0 card-text w-100">Support academic research and data analysis with custom data
+                                collection solutions.</p>
+                            {{-- <img width="50" height="50" class="w-auto"
                                 src="{{ asset('frontend/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt
                                 data-icon
                                 data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
-                                style="width: 50px;" />
+                                style="width: 50px;" /> --}}
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
         <div class="row">

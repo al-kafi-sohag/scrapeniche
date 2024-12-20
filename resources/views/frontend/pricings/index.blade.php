@@ -295,7 +295,7 @@
 
     <!-- Why Choose Us -->
     <div class="mt-5 row">
-        <div class="m-auto col-lg-10 offset-lg-2">
+        <div class="m-auto col-lg-12 offset-lg-2">
             <div class="overflow-hidden mb-4">
                 <h2 class="pt-0 mt-0 mb-0 text-color-dark font-weight-bold text-7 appear-animation"
                     data-appear-animation="maskUp" data-appear-animation-delay="100">
@@ -361,7 +361,7 @@
 
     <!-- FAQ Section -->
     <div class="mt-5 row">
-        <div class="m-auto col-lg-10 offset-lg-2">
+        <div class="m-auto col-lg-12 offset-lg-2">
             <div class="overflow-hidden mb-4">
                 <h2 class="pt-0 mt-0 mb-0 text-color-dark font-weight-bold text-7 appear-animation"
                     data-appear-animation="maskUp" data-appear-animation-delay="100">
@@ -409,4 +409,5 @@
         </div>
     </div>
 </div>
+@include('frontend.home.sections.how-we-work')
 @endsection

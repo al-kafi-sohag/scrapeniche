@@ -65,4 +65,16 @@ class FrontendController extends BaseController
 
         return view('frontend.pricings.index');
     }
+
+    public function contact()
+    {
+        $this->setupSEO(
+            'Contact | ScrapeNiche',
+            'Get in touch with ScrapeNiche for web scraping solutions. We\'d love to hear from you!',
+            ['web scraping contact', 'custom data extraction', 'user-friendly dashboard', 'data management tools', 'e-commerce scraping'],
+            asset('frontend/img/logo.png')
+        );
+
+        return view('frontend.contact.index');
+    }
 }

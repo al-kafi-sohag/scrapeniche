@@ -8,6 +8,7 @@
         align-items: center !important;
         justify-content: center !important;
     }
+
     .custom-icon-box {
         padding: 30px;
         border: 1px solid #ddd;
@@ -47,7 +48,7 @@
 
 <div class="container pt-5 mt-4">
     <div class="mb-5 row align-items-center">
-        <div class="col-lg-8 offset-lg-2 text-center">
+        <div class="text-center col-lg-8 offset-lg-2">
             <p class="mb-1 text-uppercase font-weight-semibold text-color-primary appear-animation"
                 data-appear-animation="fadeInRightShorter" data-appear-animation-delay="100">
                 <span class="line-pre-title bg-color-primary"></span>Welcome to ScrapeNiche
@@ -244,7 +245,7 @@
                                 </div>
                                 <div class="text-center col-lg-5">
                                     <div class="custom-icon-box">
-                                        <i class="fas fa-robot text-color-primary text-12 mb-3"></i>
+                                        <i class="mb-3 fas fa-robot text-color-primary text-12"></i>
                                         <p class="text-4 text-color-dark">Automated Data Extraction</p>
                                     </div>
                                 </div>
@@ -291,7 +292,7 @@
                                 </div>
                                 <div class="text-center col-lg-5">
                                     <div class="custom-icon-box">
-                                        <i class="fas fa-chart-line text-color-primary text-12 mb-3"></i>
+                                        <i class="mb-3 fas fa-chart-line text-color-primary text-12"></i>
                                         <p class="text-4 text-color-dark">Smart Analytics Dashboard</p>
                                     </div>
                                 </div>
@@ -305,5 +306,6 @@
         </div>
     </div>
 </div>
+@include('frontend.home.sections.how-we-work')
 
 @endsection

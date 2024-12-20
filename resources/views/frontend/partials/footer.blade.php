@@ -10,7 +10,8 @@
                 </a>
             </div>
             <div class="col-auto">
-                <a href="#" class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4"
+                <a href="{{ route('f.contact') }}"
+                    class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4"
                     data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                     <span class="text-color-light">Start Your Project</span>
                 </a>
@@ -18,7 +19,7 @@
         </div>
         <hr class="my-0 bg-color-light opacity-1">
         <div class="pt-3 mt-5 row">
-            <div class="mb-4 col-lg-3 mb-lg-0">
+            <div class="mb-4 col-lg-4 mb-lg-0">
                 <a href="#" class="text-decoration-none">
                     <h3 class="mb-2 text-color-light font-weight-bold text-5">Your Data, Your Way, Automated</h3>
                 </a>
@@ -46,7 +47,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="mb-4 col-lg-3 mb-lg-0">
+            <div class="mb-6 col-lg-4 mb-lg-0">
                 <ul class="list list-icons list-icons-lg">
                     <li class="px-0 mb-1 d-flex">
                         <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/phone.svg') }}"
@@ -70,34 +71,24 @@
                     </li>
                 </ul>
             </div>
-            <div class="mb-4 col-lg-4 mb-lg-0">
-                <!-- Google Maps -->
-                <iframe id="googlemaps" class="m-0 google-map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89138.52513240265!2d90.38210718647353!3d23.78089733142186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1731777262701!5m2!1sen!2sbd"
-                    height="190" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="col-lg-2">
+            <div class="col-lg-4">
                 <h4 class="font-weight-bold text-5">Quick Links</h4>
                 <ul class="list list-icons list-icons-sm">
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1">Contact Us</a>
+                        <a href="{{ route('f.contact') }}" class="link-hover-style-1 ms-1">Contact Us</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1">Our Services</a>
+                        <a href="{{ route('f.services') }}" class="link-hover-style-1 ms-1">Our Services</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1">Pricing Plans</a>
+                        <a href="{{ route('f.pricings') }}" class="link-hover-style-1 ms-1">Pricing Plans</a>
                     </li>
                     <li>
                         <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1">Documentation</a>
-                    </li>
-                    <li>
-                        <i class="fas fa-angle-right text-color-default"></i>
-                        <a href="#" class="link-hover-style-1 ms-1">FAQs</a>
+                        <a href="{{ route('f.features') }}" class="link-hover-style-1 ms-1">Features</a>
                     </li>
                 </ul>
             </div>

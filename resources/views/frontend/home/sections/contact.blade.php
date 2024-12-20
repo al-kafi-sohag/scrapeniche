@@ -15,12 +15,15 @@
                 <h2 class="mb-2 custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary appear-animation"
                     data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">START YOUR PROJECT</h2>
                 <h3 class="pb-1 mb-3 text-9 line-height-3 text-transform-none font-weight-medium text-color-light ls-0 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Get Your Custom Web Scraping Solution Today</h3>
+                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Get Your Custom Web
+                    Scraping Solution Today</h3>
                 <p class="pb-3 mb-4 text-3-5 appear-animation" data-appear-animation="fadeInUpShorter"
-                    data-appear-animation-delay="750">Ready to streamline your data collection process? Contact us to discuss your specific requirements, and let us create a tailored web scraping solution that perfectly matches your business needs.</p>
+                    data-appear-animation-delay="750">Ready to streamline your data collection process? Contact us to
+                    discuss your specific requirements, and let us create a tailored web scraping solution that
+                    perfectly matches your business needs.</p>
                 <form class="contact-form form-style-4 form-placeholders-light form-errors-light appear-animation"
                     data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000"
-                    action="php/contact-form.php" method="POST">
+                    action="{{ route('f.contact') }}" method="POST">
                     <div class="mt-4 contact-form-success alert alert-success d-none">
                         <strong>Success!</strong> Your message has been sent to us.
                     </div>
@@ -30,9 +33,9 @@
                     </div>
                     <div class="row">
                         <div class="form-group col">
-                            <input type="text" value="" data-msg-required="Please enter your name."
-                                maxlength="100" class="py-2 h-auto form-control text-3 custom-border-color-grey-1"
-                                name="name" placeholder="* Full Name" required>
+                            <input type="text" value="" data-msg-required="Please enter your name." maxlength="100"
+                                class="py-2 h-auto form-control text-3 custom-border-color-grey-1" name="name"
+                                placeholder="* Full Name" required>
                         </div>
                     </div>
                     <div class="row">
@@ -46,7 +49,8 @@
                     <div class="mb-4 row">
                         <div class="form-group col">
                             <textarea maxlength="5000" data-msg-required="Please enter your message." rows="8"
-                                class="py-2 h-auto form-control text-3 custom-border-color-grey-1" name="message" placeholder="* Message" required></textarea>
+                                class="py-2 h-auto form-control text-3 custom-border-color-grey-1" name="message"
+                                placeholder="* Message" required></textarea>
                         </div>
                     </div>
                     <div class="row">

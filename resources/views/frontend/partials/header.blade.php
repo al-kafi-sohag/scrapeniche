@@ -105,7 +105,7 @@
 
                                         <li class="d-lg-none">
                                             <a class="nav-link {{ request()->routeIs('f.contact') ? 'active' : '' }}"
-                                                href="javascript:void(0)">Contact Us</a>
+                                                href="{{ route('f.contact') }}">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -115,7 +115,7 @@
                 </div>
                 <div
                     class="flex-row w-auto header-column header-column-search justify-content-end align-items-center d-flex">
-                    <a href="javascript:void(0)"
+                    <a href="{{ route('f.contact') }}"
                         class="py-2 btn btn-dark custom-btn-style-1 font-weight-semibold text-3-5 btn-px-3 ws-nowrap ms-4 d-none d-lg-block"
                         data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                         <span>Contact Us</span>
