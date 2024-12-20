@@ -88,6 +88,16 @@
         display: inline-block;
         margin-bottom: 20px;
     }
+
+    .loading-state,
+    .normal-state {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .d-none {
+        display: none !important;
+    }
 </style>
 @endpush
 
@@ -125,14 +135,16 @@
             <div class="text-center contact-info-box">
                 <i class="fab fa-whatsapp"></i>
                 <h4>WhatsApp</h4>
-                <p><a href="https://wa.me/8801773301138" target="_blank" class="text-color-default text-decoration-none">(880) 01773301138</a></p>
+                <p><a href="https://wa.me/8801773301138" target="_blank"
+                        class="text-color-default text-decoration-none">(880) 01773301138</a></p>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="text-center contact-info-box">
                 <i class="fas fa-envelope"></i>
                 <h4>Email Us</h4>
-                <p><a href="mailto:ceo@scrapeniche.com" class="text-color-default text-decoration-none">ceo@scrapeniche.com</a></p>
+                <p><a href="mailto:ceo@scrapeniche.com"
+                        class="text-color-default text-decoration-none">ceo@scrapeniche.com</a></p>
             </div>
         </div>
     </div>
@@ -180,7 +192,22 @@
 
         <div class="col-lg-6">
             <div class="contact-form">
-                <form id="contactForm" class="contact-form" action="" method="POST">
+                @if(session('success'))
+                <div class="mb-4 alert alert-success">
+                    {{ session('success') }}
+                </div>
+                @endif
+                @if(session('error'))
+                <div class="mb-4 alert alert-danger">
+                    {{ session('error') }}
+                </div>
+                @endif
+                @if(isset($exception) && $exception instanceof \Illuminate\Http\Exceptions\ThrottleRequestsException)
+                <div class="mb-4 alert alert-danger">
+                    Too many attempts. Please try again later.
+                </div>
+                @endif
+                <form id="contactForm" class="contact-form" action="{{ route('f.contact.submit') }}" method="POST">
                     @csrf
                     <div class="row">
                         <div class="col-md-6">
@@ -204,7 +231,12 @@
                         <label for="message">Your Message</label>
                         <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-modern">Send Message</button>
+                    <button type="submit" class="btn btn-primary btn-modern" id="submitButton">
+                        <span class="normal-state">Send Message</span>
+                        <span class="loading-state d-none">
+                            <i class="fas fa-spinner fa-spin me-2"></i>Sending...
+                        </span>
+                    </button>
                 </form>
             </div>
         </div>
@@ -217,11 +249,16 @@
 @push('js')
 <script>
     $(document).ready(function() {
-        // Form validation and submission handling
-        $('#contactForm').on('submit', function(e) {
-            e.preventDefault();
-            // Add your form submission logic here
-            // You can use AJAX to submit the form data
+        $('#contactForm').on('submit', function() {
+            var $button = $('#submitButton');
+            var $normalState = $button.find('.normal-state');
+            var $loadingState = $button.find('.loading-state');
+
+            // Disable the button and show loading state
+            $button.prop('disabled', true);
+            $normalState.addClass('d-none');
+            $loadingState.removeClass('d-none');
+            return true;
         });
     });
 </script>

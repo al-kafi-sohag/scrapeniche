@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class FrontendController extends BaseController
 {
@@ -69,12 +70,42 @@ class FrontendController extends BaseController
     public function contact()
     {
         $this->setupSEO(
-            'Contact | ScrapeNiche',
-            'Get in touch with ScrapeNiche for web scraping solutions. We\'d love to hear from you!',
-            ['web scraping contact', 'custom data extraction', 'user-friendly dashboard', 'data management tools', 'e-commerce scraping'],
+            'Contact Us | ScrapeNiche',
+            'Get in touch with ScrapeNiche for professional web scraping solutions. Contact us for custom data extraction services and solutions.',
+            ['contact scrapeniche', 'web scraping contact', 'data extraction services contact'],
             asset('frontend/img/logo.png')
         );
 
         return view('frontend.contact.index');
+    }
+
+    public function submitContact(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'subject' => 'required|string|max:255',
+            'message' => 'required|string'
+        ]);
+
+        try {
+            Mail::send('emails.contact', [
+                'name' => $request->name,
+                'email' => $request->email,
+                'subject' => $request->subject,
+                'messageContent' => $request->message
+            ], function($message) use ($request) {
+                $message->to('aksohag16@gmail.com')
+                       ->subject('New Contact Form Submission: ' . $request->subject)
+                       ->replyTo($request->email, $request->name);
+            });
+
+            return redirect()->route('f.contact')
+                            ->with('success', 'Thank you for your message. We will contact you as soon as possible.');
+        } catch (\Exception $e) {
+            return redirect()->back()
+                           ->withInput()
+                           ->with('error', 'Sorry, there was an error sending your message. Please try again later.');
+        }
     }
 }
