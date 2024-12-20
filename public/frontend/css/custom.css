@@ -28,3 +28,42 @@
 .about-services-wrapper .card-body {
     min-height: 21rem;
 }
+
+
+.text-logo {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none !important;
+    color: #1976D2 !important;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.text-logo:hover {
+    color: #1565C0 !important;
+    text-decoration: none !important;
+}
+
+.text-logo i {
+    margin-right: 8px;
+    font-size: 28px;
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-logo span.niche {
+    color: #424242;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .text-logo {
+        font-size: 20px;
+    }
+    .text-logo i {
+        font-size: 24px;
+    }
+}

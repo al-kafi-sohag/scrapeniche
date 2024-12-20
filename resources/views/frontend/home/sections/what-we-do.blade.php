@@ -196,7 +196,7 @@
         </div>
         <div class="row">
             <div class="text-center col">
-                <a href="javascript:void(0)"
+                <a href="{{ route('f.services') }}"
                     class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5"
                     data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                     <span>View All Services</span>

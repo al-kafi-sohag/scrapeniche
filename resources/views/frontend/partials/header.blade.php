@@ -70,9 +70,9 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="javascript:void(0)">
-                                <img alt="Porto" width="162" height="33"
-                                    src="{{ asset('frontend/img/logos/logo.png') }}" data-img-suffix-primary>
+                            <a href="{{ route('f.home') }}" class="text-logo">
+                                <i class="fas fa-code"></i>
+                                Scrape<span class="niche">Niche</span>
                             </a>
                         </div>
                     </div>
@@ -85,36 +85,27 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
-                                            <a class="nav-link {{ request()->routeIs('f.home') ? 'active' : '' }}" href="{{ route('f.home') }}">Home</a>
+                                            <a class="nav-link {{ request()->routeIs('f.home') ? 'active' : '' }}"
+                                                href="{{ route('f.home') }}">Home</a>
                                         </li>
                                         <li>
-                                            <a class="nav-link {{ request()->routeIs('f.about') ? 'active' : '' }}" href="{{ route('f.about') }}">About Us</a>
+                                            <a class="nav-link {{ request()->routeIs('f.about') ? 'active' : '' }}"
+                                                href="{{ route('f.about') }}">About Us</a>
                                         </li>
-                                        <li class="dropdown">
-                                            <a class="nav-link dropdown-toggle {{ request()->routeIs('f.services*') ? 'active' : '' }}" href="javascript:void(0)">Services</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="javascript:void(0)" class="dropdown-item">E-commerce Scraping</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Market Research Data</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Real Estate Data</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">News & Media Monitoring</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Financial Data</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Travel & Hospitality Data</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Academic Research Data</a></li>
-                                            </ul>
+                                        <li>
+                                            <a class="nav-link {{ request()->routeIs('f.services') ? 'active' : '' }}"
+                                                href="{{ route('f.services') }}">Services</a>
                                         </li>
-                                        <li class="dropdown">
-                                            <a class="nav-link dropdown-toggle {{ request()->routeIs('f.features*') ? 'active' : '' }}" href="javascript:void(0)">Features</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Custom Scripts</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">User Dashboard</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Data Management</a></li>
-                                                <li><a href="javascript:void(0)" class="dropdown-item">Task Automation</a></li>
-                                            </ul>
+                                        <li>
+                                            <a class="nav-link {{ request()->routeIs('f.features') ? 'active' : '' }}"
+                                                href="{{ route('f.features') }}">Features</a>
                                         </li>
-                                        <li><a class="nav-link {{ request()->routeIs('f.case-studies') ? 'active' : '' }}" href="javascript:void(0)">Case Studies</a></li>
-                                        <li><a class="nav-link {{ request()->routeIs('f.blog') ? 'active' : '' }}" href="javascript:void(0)">Blog</a></li>
+                                        <li><a class="nav-link {{ request()->routeIs('f.pricings') ? 'active' : '' }}"
+                                                href="{{ route('f.pricings') }}">Pricings</a></li>
+
                                         <li class="d-lg-none">
-                                            <a class="nav-link {{ request()->routeIs('f.contact') ? 'active' : '' }}" href="javascript:void(0)">Contact Us</a>
+                                            <a class="nav-link {{ request()->routeIs('f.contact') ? 'active' : '' }}"
+                                                href="javascript:void(0)">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -140,8 +131,8 @@
                                 id="headerTopSearchDropdown">
                                 <form role="search" action="javascript:void(0)" method="get">
                                     <div class="simple-search input-group">
-                                        <input class="form-control text-1" id="headerSearch" name="q"
-                                            type="search" value="" placeholder="Search...">
+                                        <input class="form-control text-1" id="headerSearch" name="q" type="search"
+                                            value="" placeholder="Search...">
                                         <button class="btn" type="submit" aria-label="Search">
                                             <i
                                                 class="top-2 fas fa-search header-nav-top-icon text-color-dark text-color-hover-primary"></i>
