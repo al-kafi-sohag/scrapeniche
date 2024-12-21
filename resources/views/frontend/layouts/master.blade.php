@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en"
     data-style-switcher-options="{'showBordersStyle': true, 'showLayoutStyle': true, 'showBackgroundColor': true, 'borderRadius': 0, 'colorPrimary': '#099CF4', 'colorSecondary': '#0C61E0', 'colorTertiary': '#2baab1', 'colorQuaternary': '#383f48'}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Preload critical assets -->
-    <link rel="preload" as="image" href="{{ asset('frontend/img/demos/business-consulting-3/backgrounds/background-1.jpg') }}" fetchpriority="high">
-    <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Poppins:600" type="font/woff2" crossorigin>
-    
+    <link rel="preload" as="image"
+        href="{{ asset('frontend/img/demos/business-consulting-3/backgrounds/background-1.jpg') }}"
+        fetchpriority="high">
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Poppins:600" type="font/woff2"
+        crossorigin>
+
     <title>@yield('title', config('app.name')) - {{ config('app.name') }}</title>
 
     {!! SEO::generate() !!}

@@ -13,7 +13,8 @@
                                             <span>
                                                 <img width="25"
                                                     src="{{ asset('frontend/img/demos/business-consulting-3/icons/phone.svg') }}"
-                                                    alt="Contact Phone Number - ScrapeNiche Web Scraping Services" data-icon
+                                                    alt="Contact Phone Number - ScrapeNiche Web Scraping Services"
+                                                    data-icon
                                                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
                                             </span>
                                             <a class="text-color-light text-decoration-none font-weight-semibold text-3-5 ms-2"
@@ -129,16 +130,13 @@
                             </a>
                             <div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed border-radius-0"
                                 id="headerTopSearchDropdown">
-                                <form role="search" action="javascript:void(0)" method="get">
-                                    <div class="simple-search input-group">
-                                        <input class="form-control text-1" id="headerSearch" name="q" type="search"
-                                            value="" placeholder="Search...">
-                                        <button class="btn" type="submit" aria-label="Search">
-                                            <i
-                                                class="top-2 fas fa-search header-nav-top-icon text-color-dark text-color-hover-primary"></i>
-                                        </button>
-                                    </div>
-                                </form>
+                                <div class="simple-search input-group">
+                                    <div class="form-control text-1"> </div>
+                                    <button class="btn" aria-label="Search">
+                                        <i
+                                            class="top-2 fas fa-search header-nav-top-icon text-color-dark text-color-hover-primary"></i>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
