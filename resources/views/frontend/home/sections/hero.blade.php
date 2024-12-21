@@ -1,15 +1,21 @@
 <section class="m-0 border-0 section section-height-3 section-with-shape-divider position-relative" data-plugin-parallax
-    data-plugin-options="{'speed': 1.5, 'parallaxHeight': '120%'}"
-    data-image-src="{{ asset('frontend/img/demos/business-consulting-3/backgrounds/background-1.jpg') }}">
+    data-plugin-options="{'speed': 1.5, 'parallaxHeight': '120%', 'loading': 'lazy'}"
+    data-image-src="{{ asset('frontend/img/demos/business-consulting-3/backgrounds/background-1.jpg') }}"
+    style="background-color: #f7f7f7;">
     <img src="{{ asset('frontend/img/demos/business-consulting-3/backgrounds/background-woman.png') }}"
         class="top-0 right-0 img-fluid position-absolute d-none d-md-block appear-animation"
-        data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" alt="" />
+        data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" 
+        alt="Professional Web Scraping Solutions Expert"
+        width="600" height="800"
+        loading="lazy"
+        decoding="async" />
     <div class="container pb-5 mb-5 pb-xl-0 mt-md-3">
         <div class="row">
             <div class="col-md-7 col-lg-12">
                 <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="0">
                     <h1 class="pb-2 mb-3 clearfix custom-text-background custom-big-font-size-1 text-14 font-weight-bold float-xl-end line-height-1 custom-ws-mobile-wrap ws-nowrap mb-xl-5"
-                        style="background-image: url({{ asset('frontend/img/demos/business-consulting-3/backgrounds/text-background.jpg') }});">
+                        style="background-image: url({{ asset('frontend/img/demos/business-consulting-3/backgrounds/text-background.jpg') }});"
+                        loading="eager">
                         NICHE SCRAPING SOLUTIONS</h1>
                 </div>
             </div>
@@ -26,8 +32,10 @@
                     class="d-inline-flex align-items-center text-decoration-none appear-animation"
                     data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
                     <img width="30" height="30"
-                        src="{{ asset('frontend/img/demos/business-consulting-3/icons/mouse.svg') }}" alt=""
+                        src="{{ asset('frontend/img/demos/business-consulting-3/icons/mouse.svg') }}" 
+                        alt="Explore Web Scraping Solutions"
                         data-icon
+                        loading="eager"
                         data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary me-2'}" />
                     Explore Solutions
                 </a>
