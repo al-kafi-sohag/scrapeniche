@@ -18,32 +18,64 @@
 
 <!-- Vendor CSS -->
 @stack('csslink')
-<link rel="stylesheet" href="{{ asset('frontend/vendor/bootstrap/css/bootstrap.min.css') }}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+<link rel="preload" href="{{ asset('frontend/vendor/bootstrap/css/bootstrap.min.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet" href="{{ asset('frontend/vendor/animate/animate.compat.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/vendor/simple-line-icons/css/simple-line-icons.min.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/vendor/owl.carousel/assets/owl.carousel.min.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/vendor/magnific-popup/magnific-popup.min.css') }}">
+<!-- Defer non-critical CSS -->
+<link rel="preload" href="{{ asset('frontend/vendor/animate/animate.compat.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('frontend/vendor/simple-line-icons/css/simple-line-icons.min.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('frontend/vendor/owl.carousel/assets/owl.carousel.min.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('frontend/vendor/owl.carousel/assets/owl.theme.default.min.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('frontend/vendor/magnific-popup/magnific-popup.min.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
 
 <!-- Theme CSS -->
-<link rel="stylesheet" href="{{ asset('frontend/css/theme.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/theme-elements.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/theme-blog.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/theme-shop.css') }}">
+<link rel="preload" href="{{ asset('frontend/css/theme.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('frontend/css/theme-elements.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('frontend/css/theme-blog.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ asset('frontend/css/theme-shop.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
 
 <!-- Demo CSS -->
-<link rel="stylesheet" href="{{ asset('frontend/css/demos/demo-business-consulting-3.css') }}">
+<link rel="preload" href="{{ asset('frontend/css/demos/demo-business-consulting-3.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
 
 <!-- Skin CSS -->
-<link id="skinCSS" rel="stylesheet" href="{{ asset('frontend/css/skins/skin-business-consulting-3.css') }}">
+<link id="skinCSS" rel="preload" href="{{ asset('frontend/css/skins/skin-business-consulting-3.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
+<link rel="preload" href="{{ asset('frontend/css/custom.css') }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
 @stack('css')
+
+<!-- Fallback for CSS loading -->
+<noscript>
+    <link rel="stylesheet" href="{{ asset('frontend/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ asset('frontend/vendor/animate/animate.compat.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/vendor/simple-line-icons/css/simple-line-icons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/vendor/owl.carousel/assets/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/vendor/magnific-popup/magnific-popup.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/theme-elements.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/theme-blog.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/theme-shop.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/demos/demo-business-consulting-3.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/skins/skin-business-consulting-3.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
+</noscript>
 
 </head>
 
