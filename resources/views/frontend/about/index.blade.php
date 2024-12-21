@@ -56,7 +56,7 @@
                                     data-appear-animation-delay="1000">
                                     <img width="63" height="63"
                                         src="{{ asset('frontend/img/demos/business-consulting-3/icons/label.svg') }}"
-                                        alt="" data-icon
+                                        alt="ScrapeNiche Project Success Metrics - 100+ Projects Delivered" data-icon
                                         data-plugin-options="{'onlySVG': true, 'extraClass': 'd-lg-none d-xl-block'}" />
                                     <div class="ms-3">
                                         <strong class="mb-1 d-block font-weight-bold text-10">100+</strong>

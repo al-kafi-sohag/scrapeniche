@@ -13,7 +13,7 @@
                                             <span>
                                                 <img width="25"
                                                     src="{{ asset('frontend/img/demos/business-consulting-3/icons/phone.svg') }}"
-                                                    alt="Phone Icon" data-icon
+                                                    alt="Contact Phone Number - ScrapeNiche Web Scraping Services" data-icon
                                                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
                                             </span>
                                             <a class="text-color-light text-decoration-none font-weight-semibold text-3-5 ms-2"
@@ -24,7 +24,7 @@
                                             <span>
                                                 <img width="25"
                                                     src="{{ asset('frontend/img/demos/business-consulting-3/icons/email.svg') }}"
-                                                    alt="Email Icon" data-icon
+                                                    alt="Contact Email - ScrapeNiche Customer Support" data-icon
                                                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
                                             </span>
                                             <a class="text-color-light text-decoration-none font-weight-semibold text-3-5 ms-2"

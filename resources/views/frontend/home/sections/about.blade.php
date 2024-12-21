@@ -6,7 +6,7 @@
                     data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 2}, '992': {'items': 2}, '1200': {'items': 2}}, 'margin': 20, 'loop': false, 'nav': false, 'autoplay': true, 'autoplayTimeout': 5000, 'dots': true}"
                     style="height: 398px;">
                     <div>
-                        <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none">
+                        <div class="custom-link-hover-effects text-decoration-none">
                             <div class="border-0 card">
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-shopping-cart fa-3x text-color-primary"></i>
@@ -20,10 +20,10 @@
                                     </span> --}}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div>
-                        <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none">
+                        <div class="custom-link-hover-effects text-decoration-none">
                             <div class="border-0 card">
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-chart-line fa-3x text-color-primary"></i>
@@ -37,10 +37,10 @@
                                     </span> --}}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div>
-                        <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none">
+                        <div class="custom-link-hover-effects text-decoration-none">
                             <div class="border-0 card">
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-home fa-3x text-color-primary"></i>
@@ -54,10 +54,10 @@
                                     </span> --}}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div>
-                        <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none">
+                        <div class="custom-link-hover-effects text-decoration-none">
                             <div class="border-0 card">
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-newspaper fa-3x text-color-primary"></i>
@@ -71,10 +71,10 @@
                                     </span> --}}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div>
-                        <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none">
+                        <div class="custom-link-hover-effects text-decoration-none">
                             <div class="border-0 card">
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-chart-bar fa-3x text-color-primary"></i>
@@ -88,10 +88,10 @@
                                     </span> --}}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div>
-                        <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none">
+                        <div class="custom-link-hover-effects text-decoration-none">
                             <div class="border-0 card">
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-plane fa-3x text-color-primary"></i>
@@ -105,10 +105,10 @@
                                     </span> --}}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div>
-                        <a href="javascript:void(0)" class="custom-link-hover-effects text-decoration-none">
+                        <div class="custom-link-hover-effects text-decoration-none">
                             <div class="border-0 card">
                                 <div class="py-5 text-center card-body">
                                     <i class="mb-3 fas fa-graduation-cap fa-3x text-color-primary"></i>
@@ -122,7 +122,7 @@
                                     </span> --}}
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                 </div>
             </div>
             <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
-                <a href="#contact"
+                <a href="{{ route('f.contact', 'custom-solution') }}"
                     class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5"
                     data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                     <span>Request Custom Solution</span>

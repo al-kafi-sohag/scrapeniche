@@ -225,7 +225,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" required>
+                        <input type="text" class="form-control" id="subject" name="subject" value="{{ $formSubject }}" required>
                     </div>
                     <div class="mb-3">
                         <label for="message">Your Message</label>

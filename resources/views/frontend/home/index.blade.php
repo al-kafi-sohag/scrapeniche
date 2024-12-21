@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title', 'Home')
+@section('title', 'Custom Web Scraping Solutions & Data Extraction Services')
 
 @section('content')
 <div role="main" class="main">

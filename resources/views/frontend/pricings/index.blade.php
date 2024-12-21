@@ -252,7 +252,7 @@
                     </ul>
                 </div>
                 <div class="pricing-footer">
-                    <a href="#" class="btn btn-primary btn-modern">
+                    <a href="{{ route('f.contact', 'try-demo') }}" class="btn btn-primary btn-modern">
                         Try Demo
                     </a>
                 </div>
@@ -285,7 +285,7 @@
                     </ul>
                 </div>
                 <div class="pricing-footer">
-                    <a href="#" class="btn btn-primary btn-modern">
+                    <a href="{{ route('f.contact', 'general-inquiry') }}" class="btn btn-primary btn-modern">
                         Contact Us
                     </a>
                 </div>

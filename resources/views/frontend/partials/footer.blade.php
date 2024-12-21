@@ -10,7 +10,7 @@
                 </a>
             </div>
             <div class="col-auto">
-                <a href="{{ route('f.contact') }}"
+                <a href="{{ route('f.contact', 'new-project') }}"
                     class="btn btn-primary custom-btn-style-1 font-weight-medium btn-px-4 btn-py-2 text-4"
                     data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light">
                     <span class="text-color-light">Start Your Project</span>
@@ -51,21 +51,21 @@
                 <ul class="list list-icons list-icons-lg">
                     <li class="px-0 mb-1 d-flex">
                         <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/phone.svg') }}"
-                            alt="Phone Icon" data-icon
+                            alt="24/7 Customer Support Phone - ScrapeNiche" data-icon
                             data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
                         <a href="tel:+8801773301138" class="text-color-light font-weight-semibold text-3-4 ms-2">(880)
                             01773301138</a>
                     </li>
                     <li class="px-0 my-3 d-flex">
                         <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/email.svg') }}"
-                            alt="Email Icon" data-icon
+                            alt="Business Inquiries Email - ScrapeNiche" data-icon
                             data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
                         <a href="mailto:ceo@scrapeniche.com"
                             class="text-color-light font-weight-semibold text-3-4 ms-2">ceo@scrapeniche.com</a>
                     </li>
                     <li class="px-0 mb-1 d-flex font-weight-semibold text-color-light">
                         <img width="25" src="{{ asset('frontend/img/demos/business-consulting-3/icons/map-pin.svg') }}"
-                            alt="Location" data-icon
+                            alt="ScrapeNiche Office Location - Dhaka" data-icon
                             data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light me-2'}" />
                         Dhaka, Bangladesh
                     </li>
